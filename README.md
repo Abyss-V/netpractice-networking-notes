@@ -1,9 +1,6 @@
-
-
 ---
 *This project has been created as part of the 42 curriculum by ymouhib.*
 
-````markdown
 ---
 
 # NetPractice
@@ -26,17 +23,17 @@ To start NetPractice locally:
 
 ```bash
 ./run.sh
-````
+```
 
 This will launch the training interface in your browser.
 
 Each level presents a network topology. Your task is to:
 
-* Assign correct IP addresses
-* Configure subnet masks
-* Set correct default gateways
-* Ensure routers are properly configured
-* Validate that hosts can communicate
+- Assign correct IP addresses
+- Configure subnet masks
+- Set correct default gateways
+- Ensure routers are properly configured
+- Validate that hosts can communicate
 
 When your configuration is correct, you can export the level configuration.
 
@@ -57,13 +54,13 @@ Repeat this for all 10 levels.
 
 ## Submission Details
 
-* You must submit **10 exported configuration files (one per level)**.
-* All exported files must be placed at the **root of the repository**.
-* A valid `README.md` file must also be present at the root.
+- You must submit **10 exported configuration files (one per level)**.
+- All exported files must be placed at the **root of the repository**.
+- A valid `README.md` file must also be present at the root.
 
 Repository structure example:
 
-```
+```text
 .
 ├── README.md
 ├── level1.export
@@ -93,10 +90,10 @@ TCP/IP addressing defines how devices are identified and how data is routed acro
 
 A subnet mask is used to determine which part of an IP address represents the network and which part represents the host. By applying a subnet mask, we can calculate:
 
-* The network address
-* The broadcast address
-* The valid range of host addresses
-* The maximum number of hosts in a subnet
+- The network address
+- The broadcast address
+- The valid range of host addresses
+- The maximum number of hosts in a subnet
 
 Subnetting allows efficient use of IP addresses and separation of networks.
 
@@ -133,10 +130,10 @@ Switches operate at the Data Link Layer (Layer 2) of the OSI model. They forward
 
 The OSI model is a conceptual framework that explains how data flows through a network using seven layers. In NetPractice, the most relevant layers are:
 
-* **Physical Layer** – Transmission of raw bits
-* **Data Link Layer** – MAC addressing and frame delivery
-* **Network Layer** – IP addressing and routing
-* **Transport Layer** – End-to-end communication
+- **Physical Layer** – Transmission of raw bits
+- **Data Link Layer** – MAC addressing and frame delivery
+- **Network Layer** – IP addressing and routing
+- **Transport Layer** – End-to-end communication
 
 Understanding these layers helps identify where communication problems occur.
 
@@ -161,19 +158,19 @@ Binary subnet calculations were used when necessary to avoid overlapping network
 
 The following resources were used to understand and complete the project:
 
-* 42 NetPractice subject
-* [All notes](https://www.tldraw.com/f/vqNuFD_oI1j_Efbg0Hhi9?d=v-5238.-3932.21299.12341.page)
-* [CCNA NetworkChuck playlist](https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
-* [Network basics playlist](https://www.youtube.com/watch?v=q6tUCEUqxTQ&list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
+- 42 NetPractice subject
+- [All notes](https://www.tldraw.com/f/vqNuFD_oI1j_Efbg0Hhi9?d=v-5238.-3932.21299.12341.page)
+- [CCNA NetworkChuck playlist](https://www.youtube.com/watch?v=S7MNX_UD7vY&list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P)
+- [Network basics playlist](https://www.youtube.com/watch?v=q6tUCEUqxTQ&list=PL8s4OGp0649_e_Wbz5MlBgW5rBW-9hD0c)
 
 ### Use of AI
 
 AI tools were used for:
 
-* Clarifying subnetting calculations
-* Verifying IP range computations
-* Explaining routing logic
-* Reviewing theoretical networking concepts
+- Clarifying subnetting calculations
+- Verifying IP range computations
+- Explaining routing logic
+- Reviewing theoretical networking concepts
 
 AI was **not** used to automatically generate solutions for the levels. All configurations were manually calculated and validated.
 
@@ -181,9 +178,8 @@ AI was **not** used to automatically generate solutions for the levels. All conf
 
 ## Key Learnings
 
-* How to calculate network and broadcast addresses manually
-* How subnet masks affect host capacity
-* How routers connect multiple networks
-* Why correct gateway configuration is critical
-* How routing failures occur due to incorrect addressing
-
+- How to calculate network and broadcast addresses manually
+- How subnet masks affect host capacity
+- How routers connect multiple networks
+- Why correct gateway configuration is critical
+- How routing failures occur due to incorrect addressing
